@@ -32,18 +32,28 @@ function validationImc(){
         <View>
             <View>
                 <Text>Altura</Text>
+
                 <TextInput
+                onChangeText={(newHeight) => setHeight(newHeight)}
+                value={height}
                 placeholder="Ex. 1.75"
                 keyboardType="numeric"
                 ></TextInput>
+
                 <Text>Peso</Text>
                 <TextInput
-                 placeholder="Ex. 75.365"
-                 keyboardType="numeric"
+                onChangeText={(newWeight) => setWeight(newWeight)}
+                value={weight}
+                placeholder="Ex. 75.365"
+                keyboardType="numeric"
                 ></TextInput>
-                <Button title="Calcular IMC"></Button>
+
+                <Button 
+                onPress= {() => validationImc()}
+                title={textButton}
+                ></Button>
             </View>
-            <ResultImc messageResultImc={messageImc} ResultImc={imc} />
+           <ResultImc messageResultImc={messageImc} resultImc={imc}/>
         </View>
     );
 }
