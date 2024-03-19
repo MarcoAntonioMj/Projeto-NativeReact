@@ -50,7 +50,7 @@ Este é um aplicativo simples em React Native para calcular o Índice de Massa C
 ## Autor
 
 - Autor: Marco Antônio
-- GitHub: [seu-usuario](https://github.com/seu-usuario)](https://github.com/MarcoAntonioMj)
+- GitHub: https://github.com/seu-usuario)](https://github.com/MarcoAntonioMj
 
 ## Inspirado por
 
